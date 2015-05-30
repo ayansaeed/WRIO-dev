@@ -1,0 +1,19 @@
+{
+  "name": "wrio-dev",
+  "version": "1.0.0",
+  "description": "Start package for local development",
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^1.4.0",
+    "WRIO-InternetOS": "git+https://github.com/spirinvladimir/WRIO-InternetOS.git",
+    "Default-WRIO-Theme": "git+https://github.com/spirinvladimir/Default-WRIO-Theme.git",
+    "Titter-WRIO-App": "git+https://github.com/spirinvladimir/Titter-WRIO-App.git",
+    "Login-WRIO-App": "git+https://github.com/spirinvladimir/Login-WRIO-App.git"
+  },
+  "scripts": {
+    "build": "serve . && WRIO-InternetOS build",
+    "watch": "serve . && WRIO-InternetOS watch"
+  },
+  "author": "spirin.vladimir@gmail.com",
+  "license": "ISC"
+}
