@@ -10,3 +10,6 @@
 [submodule "Default-WRIO-Theme"]
 	path = Default-WRIO-Theme
 	url = git://github.com/webRunes/Default-WRIO-Theme.git
+[submodule "WRIO-InternetOS"]
+	path = WRIO-InternetOS
+	url = git://github.com/webRunes/WRIO-InternetOS.git
