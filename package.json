@@ -7,8 +7,8 @@
     "http-server": "^0.8.0"
   },
   "scripts": {
-    "build": "hs -o && cd WRIO-InternetOS && npm i && npm run build",
-    "watch": "hs -o && cd WRIO-InternetOS && npm i && npm run watch"
+    "start": "hs -p 3000 npm run watch",
+    "watch": "cd WRIO-InternetOS && npm i && npm run watch"
   },
   "author": "spirin.vladimir@gmail.com",
   "license": "ISC"
