@@ -7,7 +7,7 @@
     "http-server": "^0.8.0"
   },
   "scripts": {
-    "start": "hs -p 3000 npm run watch",
+    "start": "hs -p 3000 & npm run watch",
     "watch": "cd WRIO-InternetOS && npm i && npm run watch"
   },
   "author": "spirin.vladimir@gmail.com",
